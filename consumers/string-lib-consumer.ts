@@ -13,6 +13,10 @@
 // console.log(StringLib.ordinalize(4)); // "4th"
 
 
-/// <reference path="../lib/string-lib-js-global.d.ts" /> 
+// /// <reference path="../lib/string-lib-js-global.d.ts" /> 
+// const myOrdinal = 1;
+// console.log(window.StringLib.ordinalize(myOrdinal)); // "1st"
+
+/// <reference path="../lib/string-lib-js-extending.d.ts" /> 
 const myOrdinal = 1;
-console.log(window.StringLib.ordinalize(myOrdinal)); // "1st"
+console.log(myOrdinal.toString().ordinalize()); // "1st"

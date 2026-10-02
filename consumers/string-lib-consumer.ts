@@ -17,6 +17,15 @@
 // const myOrdinal = 1;
 // console.log(window.StringLib.ordinalize(myOrdinal)); // "1st"
 
-/// <reference path="../lib/string-lib-js-extending.d.ts" /> 
-const myOrdinal = 1;
-console.log(myOrdinal.toString().ordinalize()); // "1st"
+// /// <reference path="../lib/string-lib-js-extending.d.ts" /> 
+// const myOrdinal = 1;
+// console.log(myOrdinal.toString().ordinalize()); // "1st"
+
+
+
+import stringLib from "../lib/string-lib-js-esm.js";
+
+console.log(stringLib.ordinalize(1)); // "1st"
+console.log(stringLib.ordinalize(2)); // "2nd"
+console.log(stringLib.ordinalize(3)); // "3rd"
+console.log(stringLib.ordinalize(4)); // "4th"

@@ -23,9 +23,9 @@
 
 
 
-import stringLib from "../lib/string-lib-js-esm.js";
+// import stringLib from "../lib/string-lib-js-esm.js";
 
-console.log(stringLib.ordinalize(1)); // "1st"
-console.log(stringLib.ordinalize(2)); // "2nd"
-console.log(stringLib.ordinalize(3)); // "3rd"
-console.log(stringLib.ordinalize(4)); // "4th"
+// console.log(stringLib.ordinalize(1)); // "1st"
+// console.log(stringLib.ordinalize(2)); // "2nd"
+// console.log(stringLib.ordinalize(3)); // "3rd"
+// console.log(stringLib.ordinalize(4)); // "4th"
